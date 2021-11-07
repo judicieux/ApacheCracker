@@ -22,7 +22,7 @@ def main():
 	init()
 	connection = pymysql.connect(
 		user='toronto', 
-		passwd='Kaka123.', 
+		passwd='XXXX', 
 		host='mysql-toronto.alwaysdata.net', 
 		database='toronto_apache'
 		)
