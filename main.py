@@ -46,20 +46,7 @@ def main():
 		connect = [str(i) for i in cursor]
 		if connect:
 			clear()
-			print(f"""
-	{Fore.RED}
-	██   █ ▄▄  ██   ▄█▄     ▄  █ ▄███▄         ▄   ▄█ 
-	█ █  █   █ █ █  █▀ ▀▄  █   █ █▀   ▀         █  ██ 
-	█▄▄█ █▀▀▀  █▄▄█ █   ▀  ██▀▀█ ██▄▄      █     █ ██ 
-	█  █ █     █  █ █▄  ▄▀ █   █ █▄   ▄▀    █    █ ▐█ 
-	   █  █       █ ▀███▀     █  ▀███▀       █  █   ▐ 
-	  █    ▀     █           ▀                █▐      
-	 ▀          ▀                             ▐                         
-			  {Fore.YELLOW}[{Fore.RED}@{Fore.YELLOW}z01youl]
-
-	[{Fore.RED}Upload NDDs{Fore.YELLOW}]: {Fore.RED}1
-
-				""")
+			print(logo)
 			choice = input("[@]> ")
 
 			if choice == "1":
